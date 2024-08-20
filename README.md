@@ -30,9 +30,11 @@ pages: ""
 Get all notes in obsidian.
 
 ```
-pages: "Notes/Theology"
+pages: '"Notes/Theology"'
 ```
 Set a custom folder to get notes from.
+
+*In order to set a custom folder that is passed to pages, the folder path needs to be passed including the double quotes either by enclosing them in single quotes as shown above or by escaping the double quotes like this:  "/"Notes/Theology/"".*
     
 ---
 ### view:
